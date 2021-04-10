@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/netlabs",
+      "handler": "netlabs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/netlabs/count",
+      "handler": "netlabs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/netlabs/:id",
+      "handler": "netlabs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/netlabs",
+      "handler": "netlabs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/netlabs/:id",
+      "handler": "netlabs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/netlabs/:id",
+      "handler": "netlabs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

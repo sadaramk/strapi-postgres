@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "netlabs",
+  "info": {
+    "name": "netlabs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Home_Banner": {
+      "type": "string"
+    },
+    "Home_Banner_Text": {
+      "type": "richtext"
+    }
+  }
+}
